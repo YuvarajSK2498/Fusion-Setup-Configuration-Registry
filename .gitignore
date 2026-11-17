@@ -1,0 +1,20 @@
+# Local Python/runtime files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Private implementation workspaces; retain only the reusable template.
+/project/*
+!/project/_template/
+!/project/.gitignore
+
+# Local secrets must never be added. These rules do not untrack existing files.
+.env
+.env.*
+!.env.example
+*_token.json
+oauth-trust.json
+*.pem
+*.key

@@ -37,6 +37,11 @@ The repository is organized to support:
 
 ## Getting Started
 
+For desktop or browser access without CMD or VS Code, start with
+[Use FSCR from a desktop app or browser](START-HERE.md). It includes repository
+connection steps and copyable prompts for a private draft run book and
+configuration guide, plus the requirements for live Fusion Run Book creation.
+
 **Start with a question or an implementation goal.**
 
 With this repository open in your AI assistant, describe what you want to
