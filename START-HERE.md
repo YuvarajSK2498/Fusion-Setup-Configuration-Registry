@@ -1,5 +1,10 @@
 # Use FSCR from a desktop app or browser
 
+For the shortest request, use [the copy-and-paste prompt](COPY-PASTE-PROMPT.md).
+The bundled [workbook renderer](tools/configuration-workbook/README.md) creates
+Excel plus matching Markdown guide and draft run-book files from agent-authored
+content after the existing workflow prerequisites have passed.
+
 FSCR is a public collection of Oracle Fusion implementation skills, technical
 services, and reference material. An AI coding agent reads these files and runs
 the selected workflow. GitHub hosts the files; it does not run FSCR by itself.
@@ -156,7 +161,9 @@ continue within the deferred workflow where its prerequisites are satisfied.
 
 ## What this setup verifies
 
-The publication adds entry instructions and privacy ignore rules. It does not
+The publication adds entry instructions, a tested document renderer, and privacy
+ignore rules. Renderer tests use synthetic data, not a live Fusion environment
+or provider-specific end-to-end cloud sessions. It does not
 install an agent subscription, register a Fusion OAuth client, configure every
 user's cloud environment, certify all pillar skills, or demonstrate a successful
 live Fusion Run Book creation. Validate those capabilities per user and runtime.

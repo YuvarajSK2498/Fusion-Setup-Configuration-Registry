@@ -8,6 +8,7 @@ For introductions and authentication guidance, begin with
 `router/implementation-router/SKILL.md` and follow its selected skills and gates.
 
 For desktop and browser onboarding, see [START-HERE.md](START-HERE.md).
+For workbook requests, also read `tools/configuration-workbook/AGENT-WORKFLOW.md`.
 When users request draft documents without Fusion access, defer live Run Book
 creation explicitly through the initializer's supported `--no-create-runbook`
 option. Never substitute a direct API call or browser operation for a routed step.
